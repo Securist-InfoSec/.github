@@ -1,29 +1,28 @@
 # Securist
 
-**Sovereign infosec tooling.** Dual-forge: **GitHub (code)** × **Hugging Face (models)**.
+**Autonomous pentesting that runs on your machine.**
 
-```
-SECURIST · INFOSEC · OSINT · CTI · GEOIP · MODELS
-```
+There is no upload button. The planner, workers, tools, traffic capture, and evidence graph stay on the machine that owns the engagement. Every finding is bound to the request and response that prove it.
 
-🌐 [secur.ist](https://secur.ist) · 📡 [Activity](https://secur.ist/activity) · 🧠 [Models](https://secur.ist/models) · ⚙️ [Daemon](https://secur.ist/daemon)
+[Private beta](https://securist-infosec.github.io/securist-pentest/) · [Simulated run](https://securist-infosec.github.io/securist-pentest/demo.html) · [Security](https://securist-infosec.github.io/securist-pentest/security.html) · [Source](https://securist-infosec.github.io/securist-pentest/source.html)
 
-✉️ security@secur.ist · ops@secur.ist · legal@secur.ist
+## Repositories
 
-## Packages
+| Repo | What it is |
+|---|---|
+| [`securist-pentest`](https://github.com/Securist-InfoSec/securist-pentest) | Public site, scoping assistant, simulated run, security and source pages |
+| engine mirror | Published with the first signed build |
+| benchmark | Lab targets, seeds, budgets, scoring, and the failure log |
 
-| Role | Repo |
-|------|------|
-| Hub | [`securist-hub`](https://github.com/wantzjt/securist-hub) · → `securist/hub` when live |
-| GH Scout | [`scout-daemon`](https://github.com/Securist-InfoSec/scout-daemon) |
-| HF Scout | [`hf-model-scout`](https://github.com/Securist-InfoSec/hf-model-scout) |
-| Implement | [`implementer-sdk`](https://github.com/Securist-InfoSec/implementer-sdk) |
-| Geo | [`geolite2-bridge`](https://github.com/Securist-InfoSec/geolite2-bridge) |
-| Signal | [`redirect-intel`](https://github.com/Securist-InfoSec/redirect-intel) |
-| Field | [`tarx-bridge`](https://github.com/Securist-InfoSec/tarx-bridge) |
-| Prompts | [`ecosystem-prompts`](https://github.com/Securist-InfoSec/ecosystem-prompts) |
-| Sovereignty | [`sovereignty-lab-kit`](https://github.com/Securist-InfoSec/sovereignty-lab-kit) |
+## Boundaries
 
-## Posture
+- No distributed scanning. Tool, scan, and exploit traffic originates only from the machine that owns the engagement.
+- No shared targets. No feature lets one install attack a host on another install's behalf.
+- No silent root CA. The capture certificate is explained, optional, and removable.
+- Authorized testing only. A named owner and written permission come before any task.
 
-Legal **public-source only**. No unauthorized access. MaxMind honesty. HF license respect.
+## License
+
+The engine is built on an AGPL-3.0 codebase. The corresponding source, including Securist patches, is offered with every distributed build.
+
+Contact: securist_info_sec@protonmail.com
