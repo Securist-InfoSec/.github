@@ -4,7 +4,7 @@
 
 There is no upload button. The planner, workers, tools, traffic capture, and evidence graph stay on the machine that owns the engagement. Every finding is bound to the request and response that prove it.
 
-[Private beta](https://securist-infosec.github.io/securist-pentest/) · [Simulated run](https://securist-infosec.github.io/securist-pentest/demo.html) · [Security](https://securist-infosec.github.io/securist-pentest/security.html) · [Source](https://securist-infosec.github.io/securist-pentest/source.html)
+[Private beta](https://secur.ist/) · [Simulated run](https://secur.ist/demo.html) · [Security](https://secur.ist/security.html) · [Source](https://secur.ist/source.html)
 
 ## Repositories
 
